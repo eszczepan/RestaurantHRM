@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantHRM.App", "RestaurantHRM.App\RestaurantHRM.App.csproj", "{5BF57A17-BEEB-4754-AAA4-6905312BA999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantHRM.Shared", "RestaurantHRM.Shared\RestaurantHRM.Shared.csproj", "{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BF57A17-BEEB-4754-AAA4-6905312BA999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF57A17-BEEB-4754-AAA4-6905312BA999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF57A17-BEEB-4754-AAA4-6905312BA999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF57A17-BEEB-4754-AAA4-6905312BA999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62922440-941A-4A6C-9EDF-12772DAAF591}
+	EndGlobalSection
+EndGlobal
