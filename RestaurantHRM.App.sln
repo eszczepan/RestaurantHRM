@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantHRM.App", "RestaurantHRM.App\RestaurantHRM.App.csproj", "{5BF57A17-BEEB-4754-AAA4-6905312BA999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantHRM.App", "RestaurantHRM.App\RestaurantHRM.App.csproj", "{5BF57A17-BEEB-4754-AAA4-6905312BA999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantHRM.Shared", "RestaurantHRM.Shared\RestaurantHRM.Shared.csproj", "{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantHRM.Api", "RestaurantHRM.Api\RestaurantHRM.Api.csproj", "{4D0B061E-0FF0-479F-9631-DD744461CC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantHRM.Shared", "RestaurantHRM.Shared\RestaurantHRM.Shared.csproj", "{A3867EE0-3082-4104-9D04-2C66E649715C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{5BF57A17-BEEB-4754-AAA4-6905312BA999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF57A17-BEEB-4754-AAA4-6905312BA999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF57A17-BEEB-4754-AAA4-6905312BA999}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79DFFBA4-DEEF-4E94-971D-EDDF9C57AD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0B061E-0FF0-479F-9631-DD744461CC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0B061E-0FF0-479F-9631-DD744461CC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0B061E-0FF0-479F-9631-DD744461CC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0B061E-0FF0-479F-9631-DD744461CC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3867EE0-3082-4104-9D04-2C66E649715C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3867EE0-3082-4104-9D04-2C66E649715C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3867EE0-3082-4104-9D04-2C66E649715C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3867EE0-3082-4104-9D04-2C66E649715C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

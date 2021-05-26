@@ -1,4 +1,4 @@
-﻿namespace BethanysPieShopHRM.Shared
+﻿namespace RestaurantHRM.Shared
 {
     public class Country
     {

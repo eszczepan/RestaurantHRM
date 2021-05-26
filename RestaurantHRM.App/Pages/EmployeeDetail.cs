@@ -1,4 +1,4 @@
-﻿using BethanysPieShopHRM.Shared;
+﻿using RestaurantHRM.Shared;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
