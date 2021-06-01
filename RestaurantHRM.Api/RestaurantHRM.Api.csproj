@@ -18,4 +18,8 @@
     <ProjectReference Include="..\RestaurantHRM.Shared\RestaurantHRM.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

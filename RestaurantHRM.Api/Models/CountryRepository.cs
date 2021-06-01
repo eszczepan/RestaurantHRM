@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using RestaurantHRM.Shared
+using RestaurantHRM.Shared;
 
 namespace RestaurantHRM.Api.Models
 {
@@ -17,7 +17,7 @@ namespace RestaurantHRM.Api.Models
         }
         public Country GetCountryById(int countryId)
         {
-            return _appDbContext.Countries.FirstOrDefault(c => c.CountryId == countryId)
+            return _appDbContext.Countries.FirstOrDefault(c => c.CountryId == countryId);
         }
     }
 }
